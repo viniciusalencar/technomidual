@@ -1,0 +1,46 @@
+header.masthead {
+    background-color: rgb(11,22,52);
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  
+  }
+  .masthead-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  
+  .masthead-subheading {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+
+  .socialMedias {
+    padding-top: 25px;
+  }
+
+  i {
+    padding-left: 20px
+
+  }
+
+  .nameIcon {
+    margin: 10px;
+    color: white;
+    font-size: 20px
+  }
+
+  .btn-custom {
+    background-color: rgb(11,22,52);
+    color: white;
+  }
+
+

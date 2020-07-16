@@ -1,0 +1,40 @@
+header.masthead-contacts {
+    background-color: rgb(11,22,52);
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .masthead-contacts-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  
+  .masthead-contacts-subheading {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  .socialMediasContacts {
+      padding-top: 15px;
+  }
+
+  .titleContacts {
+        padding-left: 17px
+  }
+  .nameIconContacts {
+    color: black;
+    font-size: 15px;
+    padding-left: 15px
+  }
+
+
+

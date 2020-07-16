@@ -1,0 +1,61 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer-custom {
+    background-color: rgb(11,22,52);
+}
+
+.space {
+    padding-top: 20px ;
+}
+.nameSite {
+    padding-top: 20px
+}
+
+.subNameSite {
+    padding-left: 20px
+}
+
+.description {
+    font-size: 12px
+}
+
+.pages {
+    padding-top: 20px
+}
+
+.pagesLink {
+    color: white;
+}
+
+.nameIconFooter {
+    font-size: 18px;
+    padding-left: 5px;
+    color: white;
+}
+
+.contacts {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.copyright {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.teste {
+    align-items: center;
+}
+
+.block {
+    position: relative;
+    flex-wrap: wrap;    
+}

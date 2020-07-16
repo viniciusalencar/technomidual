@@ -1,0 +1,47 @@
+header.masthead-servicing {
+    background-color: rgb(11,22,52);
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.masthead-servicing-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+  
+.masthead-servicing-subheading {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.servicings {
+    padding: 20px
+}
+
+.formater-text {
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.btn-custom {
+    background-color: rgb(11,22,52);
+    color: white;
+}
+
+.space {
+    padding-top: 30px
+}
+
+.heading-tolls {
+    width: 100%;
+    text-align: center;
+    padding: 100px 0px;
+}

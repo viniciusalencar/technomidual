@@ -1,0 +1,60 @@
+header.masthead-about {
+    background-color: rgb(11,22,52);
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    padding-bottom: 7rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.masthead-about-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+  
+.masthead-about-subheading {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.heading-company-profile  {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    word-wrap: break-word;
+    color: black; 
+}
+
+.text-company-profile {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: normal;  
+    color: black; 
+}
+  
+.title-heading-company-profile {
+    font-size: 36px;
+}
+
+.text-heading-company-profile {
+    font-size: 12px
+}
+
+.mission-vision-values {
+    width: 100%;
+    padding-top: 35px;
+    text-align: center;
+    padding-bottom: 50px
+}
+
+.box-mission-vision-values {
+    border-right: solid 1px #acacac;
+}
+
