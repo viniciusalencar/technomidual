@@ -44,7 +44,8 @@ class Home extends Component {
                   <div className="p-5">
                     <h2>Quem somos?</h2>
                     <hr></hr>
-                    <h6>Acessa o botão abaixo e conheça um pouco sobre nó</h6>
+                    <h6>Acesse o botão abaixo e conheça um pouco mais sobre nossa empresa,
+                        relatando missão, visão e valores do nosso negócio.</h6>
                     <Link to="/about" className="btn btn-custom btn-xl rounded-pill mt-5">Sobre</Link>
                   </div>
                 </div>
@@ -52,7 +53,9 @@ class Home extends Component {
                   <div className="p-5">
                     <h2>O que fazemos?</h2>
                     <hr></hr>
-                    <h6>Acesse o botão abaixo e conheça o que fazemos</h6>
+                    <h6>Acesse o botão abaixo e conheça os serviços que prestamos aos nossos clientes,
+                        nossas ferramentas e nosso método de armazenamento dos materiais.
+                    </h6>
                     <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
@@ -69,7 +72,14 @@ class Home extends Component {
                 <div className="col-lg-6 order-lg-1">
                   <div className="p-5">
                     <h2 className="display-4">Edições de Vídeos</h2>
-                    <p>Aqui vai um textinho falando sobre as edições de vídeos.</p>
+                    <p>Os recursos audiovisuais são imprescindíveis para estabelecer-se uma
+                       comunicação eficaz com o público-alvo. Desta forma, o processo de edição
+                       de vídeos detém um papel de vital importância, especialmente no que diz
+                       respeito à apresentação de um conteúdo audiovisual. Em virtude disto,
+                       a fim de assegurar a qualidade de seus projetos, a Techno utiliza-se
+                       de ferramentas profissionais que otimizam seu trabalho. Dentre estas,
+                       destaca-se o domínio do Adobe Creative Cloud, conjunto de aplicativos
+                       essenciais para realização de projetos gráficos e midiáticos.</p>
                     <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>

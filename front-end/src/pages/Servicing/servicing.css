@@ -37,11 +37,28 @@ header.masthead-servicing {
 }
 
 .space {
-    padding-top: 30px
+    padding-top: 30px;
+    align-items: center;
+    text-align: center;
 }
 
 .heading-tolls {
     width: 100%;
     text-align: center;
     padding: 100px 0px;
+}
+
+.title-servicing {
+    padding-bottom: 15px;
+}
+
+.drive {
+    text-align: center;
+    padding-top: 35px
+}
+
+.image-drive {
+    width: 280px;
+    height: 100px;
+
 }

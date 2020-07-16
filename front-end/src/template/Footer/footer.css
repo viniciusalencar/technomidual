@@ -9,53 +9,58 @@
     background-color: rgb(11,22,52);
 }
 
-.space {
-    padding-top: 20px ;
-}
-.nameSite {
-    padding-top: 20px
-}
-
-.subNameSite {
-    padding-left: 20px
-}
-
-.description {
-    font-size: 12px
-}
-
-.pages {
-    padding-top: 20px
-}
-
-.pagesLink {
-    color: white;
-}
-
-.nameIconFooter {
-    font-size: 18px;
-    padding-left: 5px;
-    color: white;
-}
-
-.contacts {
-    padding-left: 15px;
-    padding-top: 20px;
-}
-
-.copyright {
-    width: 100%;
-    padding: 20px;
-    position: relative;
+.social-medias-div-footer{
     text-align: center;
-    justify-content: center;
+    padding-top: 25px;
 }
 
-.teste {
-    align-items: center;
+.social-medias-footer{
+    height: 40px;
+    width: 40px;
+    margin: 10px
 }
 
-.block {
-    position: relative;
-    flex-wrap: wrap;    
+.row {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.name-site-footer {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description-site {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+.first-column {
+    text-align: center;
+    border-right: solid 1px slategray;
+}
+
+.name-contacts-footer {
+    font-size: 25px;
+}
+
+.contacts-footer {
+    font-size: 20px;
+    padding: 0;
+}
+
+.contacts-name-footer {
+    font-size: 15px;
+}
+
+.link-footer {
+    color: white;
+}
+
+.creator-site {
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.link-creator {
+    color: white;
 }

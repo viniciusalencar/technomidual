@@ -4,6 +4,7 @@ import './servicing.css'
 import EdicaoVideo from '../../assets/edicaoVideo.jpg'
 import EdicaoImagem from '../../assets/edicaoImagem.jpg'
 import EdicaoAudio from '../../assets/edicaoAudio.jpg'
+import Drive from '../../assets/drive.png'
 
 class Servicing extends Component {
     render() {
@@ -22,37 +23,38 @@ class Servicing extends Component {
                     <div className="servicings">
                         <div className="row space">
                             <div className="col-md-4">
-                            <img className="img-fluid rounded-circle" src={EdicaoVideo} alt="edicaoVideo"></img>
+                                <h1 className="title-servicing">Edições de Vídeos</h1>
+                                <img className="img-fluid rounded-circle" src={EdicaoVideo} alt="edicaoVideo"></img>
                             </div>
-                            <div className="col-md-8 formater-text">
-                                <h1>Edições de Vídeos</h1>
-                                <span className="descriptionServicing">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
-                            </div>
-                        </div>
-                        <div className="row space">
                             <div className="col-md-4">
-                            <img className="img-fluid rounded-circle" src={EdicaoImagem} alt="edicaoVideo"></img>
+                                <h1 className="title-servicing">Edições de Imagens</h1>
+                                <img className="img-fluid rounded-circle" src={EdicaoImagem} alt="edicaoVideo"></img>
                             </div>
-                            <div className="col-md-8 formater-text">
-                                <h1>Edições de Imagens</h1>
-                                <span className="descriptionServicing">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
-                            </div>
-                        </div>
-                        <div className="row space">
                             <div className="col-md-4">
-                            <img className="img-fluid rounded-circle" src={EdicaoAudio} alt="edicaoVideo"></img>
-                            </div>
-                            <div className="col-md-8 formater-text">
-                                <h1>Edições de Áudios</h1>
-                                <span className="descriptionServicing">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+                                <h1 className="title-servicing">Edições de Áudios</h1>
+                                <img className="img-fluid rounded-circle" src={EdicaoAudio} alt="edicaoVideo"></img>
                             </div>
                         </div>
                     </div>
+                </section>
 
-                    <section>
-                        <div className="tolls">
-                            <div className="heading-tolls">
-                                <h1>Ferramentas</h1>
+                <section>
+                    <div className="drive">
+                        <div className="row space">
+                            <div className="col-md-12">
+                                <h1 className="titleDrive">Armazenamento</h1>
+                                <img className="image-drive" src={Drive} />
+                                <br></br>
+                                <span>Seu trabalho seguro no Google Drive</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div className="tolls">
+                        <div className="heading-tolls">
+                            <h1>Ferramentas</h1>
                                 <img src="https://img.icons8.com/fluent/96/000000/adobe-after-effects.png" alt="AE"/>
                                 <img src="https://img.icons8.com/color/96/000000/adobe-illustrator.png"/>
                                 <img src="https://img.icons8.com/fluent/96/000000/adobe-audition.png"/>
@@ -60,7 +62,6 @@ class Servicing extends Component {
                                 <img src="https://img.icons8.com/fluent/96/000000/adobe-photoshop.png"/>
                             </div>
                         </div>
-                    </section>
                 </section>
             </div>
         )
