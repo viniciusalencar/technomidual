@@ -1,5 +1,9 @@
+import { Link } from 'react-router-dom'
+
 import React, {Component} from 'react';
 import './home.css';
+
+
 import edicaoVideo from '../../assets/edicaoVideo.jpg'
 import edicaoImagem from '../../assets/edicaoImagem.jpg'
 import edicaoAudio from '../../assets/edicaoAudio.jpg'
@@ -13,7 +17,7 @@ class Home extends Component {
                 <div className="content">
                   <h1 className="masthead-heading mb-0">Techno</h1>
                   <h2 className="masthead-subheading mb-0">- Mídia e Audiovisual -</h2>
-                  <a href="#" className="btn btn-primary btn-xl rounded-pill mt-5">Contatos</a>
+                  <Link to="/contacts" className="btn btn-primary btn-xl rounded-pill mt-5">Contatos</Link>
                 </div>
                 <div className="socialMedias">
                 <i className="fa fa-instagram InstaColor" aria-hidden="true">
@@ -41,7 +45,7 @@ class Home extends Component {
                     <h2>Quem somos?</h2>
                     <hr></hr>
                     <h6>Acessa o botão abaixo e conheça um pouco sobre nó</h6>
-                    <a href="#" className="btn btn-custom btn-xl rounded-pill mt-5">Sobre</a>
+                    <Link to="/about" className="btn btn-custom btn-xl rounded-pill mt-5">Sobre</Link>
                   </div>
                 </div>
                 <div className="col-lg-6 ordern-lg-2">
@@ -49,7 +53,7 @@ class Home extends Component {
                     <h2>O que fazemos?</h2>
                     <hr></hr>
                     <h6>Acesse o botão abaixo e conheça o que fazemos</h6>
-                    <a href="#" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</a>
+                    <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
               </div>
@@ -66,7 +70,7 @@ class Home extends Component {
                   <div className="p-5">
                     <h2 className="display-4">Edições de Vídeos</h2>
                     <p>Aqui vai um textinho falando sobre as edições de vídeos.</p>
-                    <a href="#" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</a>
+                    <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
               </div>
@@ -85,7 +89,7 @@ class Home extends Component {
                   <div className="p-5">
                     <h2 className="display-4">Edições de Imagens</h2>
                     <p>Aqui vai um textinho falando sobre as edições de imagens.</p>
-                    <a href="#" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</a>
+                    <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
               </div>
@@ -101,7 +105,7 @@ class Home extends Component {
                   <div className="p-5">
                     <h2 className="display-4">Edições de Áudio em vídeo</h2>
                     <p>Aqui vai um textinho falando sobre as edições de imagens.</p>
-                    <a href="#" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</a>
+                    <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
               </div>
