@@ -72,7 +72,7 @@ class Home extends Component {
                 <div className="col-lg-6 order-lg-1">
                   <div className="p-5">
                     <h2 className="display-4">Edições de Vídeos</h2>
-                    <p>Os recursos audiovisuais são imprescindíveis para estabelecer-se uma
+                    <p className="description-topics-home">Os recursos audiovisuais são imprescindíveis para estabelecer-se uma
                        comunicação eficaz com o público-alvo. Desta forma, o processo de edição
                        de vídeos detém um papel de vital importância, especialmente no que diz
                        respeito à apresentação de um conteúdo audiovisual. Em virtude disto,
@@ -98,7 +98,11 @@ class Home extends Component {
                 <div className="col-lg-6 order-lg-2">
                   <div className="p-5">
                     <h2 className="display-4">Edições de Imagens</h2>
-                    <p>Aqui vai um textinho falando sobre as edições de imagens.</p>
+                    <p className="description-topics-home">Assim como em vídeos, a edição de imagens constituí-se enquanto um fator
+                       determinante para comunicação de um empreendimento. Os anúncios digitais,
+                       neste caso, assumem a tarefa de veicular mensagens publicitárias, utilizando-se
+                       de elementos de caráter artístico. A Techno, por sua vez, elabora conceitos criativos
+                       que abrangem aspectos textuais e visuais de uma mensagem a ser emitida.</p>
                     <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>
@@ -114,7 +118,11 @@ class Home extends Component {
                 <div className="col-lg-6 order-lg-1">
                   <div className="p-5">
                     <h2 className="display-4">Edições de Áudio em vídeo</h2>
-                    <p>Aqui vai um textinho falando sobre as edições de imagens.</p>
+                    <p className="description-topics-home">A correção de ruídos em ambientes externos, eco em ambientes internos,
+                       ou quaisquer elementos sonoros indesejados em um conteúdo audiovisual,
+                       inclui-se no tratamento e edição de vídeos. A Techno, então, busca por
+                       otimizar a qualidade de som, a fim de proporcionar ao cliente, e seu público-alvo,
+                       uma experiência proveitosa ao assistir o material apresentado.</p>
                     <Link to="/servicing" className="btn btn-custom btn-xl rounded-pill mt-5">Serviços</Link>
                   </div>
                 </div>

@@ -9,7 +9,7 @@ class About extends Component {
                     <div className="masthead-content">
                         <div className="content">
                             <h1 className="masthead-about-heading mb-0">Sobre nós</h1>
-                            <h2 className="masthead-about-subheading mb-0">Um subtítulo</h2> 
+                            <h2 className="masthead-about-subheading mb-0">Conheça um pouco mais sobre a empresa</h2> 
                         </div>
                     </div>
                 </header>
@@ -29,31 +29,26 @@ class About extends Component {
                     <div className="mission-vision-values">
                         <div className="row mission-vision-values">
                             <div className="col-md-4 box-mission-vision-values">
-                                <h2 className="text-mission-vision-values">MISSÃO</h2>
-                                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                <h2 className="text-mission-vision-values">Missão</h2>
+                                <p className="misson">Ser a melhor empresa em oferecer edições de mídias audiovisuais com qualidade, segurança
+                                    e sempre dentro dos prazos estipulados aos seus cliente, satisfazendo suas necessidades.  
                                 </p>
                             </div>
                             <div className="col-md-4 box-mission-vision-values">  
-                                <h2 className="text-mission-vision-values">VISÃO</h2>
-                                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                <h2 className="text-mission-vision-values">Visão</h2>
+                                <p className="vision">Ser um negócio de referência dentro do âmbito tecnológico e de mídias, reconhecida como 
+                                    melhor opção à comunidade, pela qualidade do serviço prestado.
                                 </p>
                             </div>
                             <div className="col-md-4">
-                                <h2 className="text-mission-vision-values">VALORES</h2>
-                                <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                </p>
+                                <h2 className="text-mission-vision-values">Valores</h2>
+                                <p className="values">Honestidade</p>
+                                <p className="values">Integridade</p>
+                                <p className="values">Criatividade</p>
+                                <p className="values">Segurança</p>
+                                <p className="values">Paixão</p>
+                                <p className="values">Preservação ao meio ambiente</p>
+                                <p className="values">Respeito e reconhecimento da diversidade</p>
                             </div>
                         </div>
                     </div>

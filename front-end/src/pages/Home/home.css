@@ -29,7 +29,6 @@ header.masthead {
 
   i {
     padding-left: 20px
-
   }
 
   .nameIcon {
@@ -43,4 +42,7 @@ header.masthead {
     color: white;
   }
 
+  .description-topics-home{
+    text-align: justify;
+  }
 
