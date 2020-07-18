@@ -21,16 +21,16 @@ class Home extends Component {
                 </div>
                 <div className="socialMedias">
                 <i className="fa fa-instagram InstaColor" aria-hidden="true">
-                  <a className="nameIcon" href="#">Instagram/techno</a>
+                  <a className="nameIcon" href="#">Instagram: @technomidual</a>
                 </i>
                 <i class="fa fa-whatsapp WhatsColor" aria-hidden="true">
                   <a className="nameIcon" href="#">WhatsApp: (35) 99732-0332</a>
                 </i>
                 <i class="fa fa-facebook" aria-hidden="true">
-                  <a className="nameIcon" href="#">Facebook/techno</a>
+                  <a className="nameIcon" href="#">Facebook: Techno</a>
                 </i>
                 <i class="fa fa-envelope" aria-hidden="true">
-                  <a className="nameIcon" href="#">Gmail/techno</a>
+                  <a className="nameIcon" href="#">Gmail: technomidual@gmail.com</a>
                 </i>
                 
                 </div>
@@ -45,7 +45,7 @@ class Home extends Component {
                     <h2>Quem somos?</h2>
                     <hr></hr>
                     <h6>Acesse o botão abaixo e conheça um pouco mais sobre nossa empresa,
-                        relatando missão, visão e valores do nosso negócio.</h6>
+                       nossa missão, visão e valores do nosso negócio.</h6>
                     <Link to="/about" className="btn btn-custom btn-xl rounded-pill mt-5">Sobre</Link>
                   </div>
                 </div>
@@ -117,7 +117,7 @@ class Home extends Component {
                 </div>
                 <div className="col-lg-6 order-lg-1">
                   <div className="p-5">
-                    <h2 className="display-4">Edições de Áudio em vídeo</h2>
+                    <h2 className="display-4">Edições de Áudios</h2>
                     <p className="description-topics-home">A correção de ruídos em ambientes externos, eco em ambientes internos,
                        ou quaisquer elementos sonoros indesejados em um conteúdo audiovisual,
                        inclui-se no tratamento e edição de vídeos. A Techno, então, busca por

@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './contacts.css'
-import Contatos from '../../assets/contatos.jpg'
+import Contatos from '../../assets/contacts.png'
 
 class Contacts extends Component {
     render() {
@@ -29,25 +29,25 @@ class Contacts extends Component {
                                 <div className="p-5 paddingContacts">
                                     <h3 className="titleContacts">Contatos</h3>
                                 <div className="socialMediasContacts">
+                                    <i class="fa fa-facebook" aria-hidden="true">
+                                        <a className="nameIconContacts" href="#">Facebook: Techno</a>
+                                    </i>
+                                    <hr></hr>
+                                    <i class="fa fa-linkedin" aria-hidden="true">
+                                        <a className= "nameIconContacts" href="#">Linkedin: Techno</a>    
+                                    </i>    
+                                    <hr></hr>
                                     <i className="fa fa-instagram InstaColor" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Instagram/techno</a>
+                                        <a className="nameIconContacts" href="#">Instagram: @technomidual</a>
                                     </i>
                                     <hr></hr>
                                     <i class="fa fa-whatsapp WhatsColor" aria-hidden="true">
                                         <a className="nameIconContacts" href="#">WhatsApp: (35) 99732-0332</a>
                                     </i>
-                                    <hr></hr>
-                                    <i class="fa fa-facebook" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Facebook/techno</a>
-                                    </i>
-                                    <hr></hr>
+                                    <hr></hr>                                
                                     <i class="fa fa-envelope" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Gmail/techno</a>
+                                        <a className="nameIconContacts" href="#">Gmail: technomidual@gmail.com</a>
                                     </i>
-                                    <hr></hr>
-                                    <i class="fa fa-linkedin" aria-hidden="true">
-                                        <a className= "nameIconContacts" href="#">Linkedin/techno</a>    
-                                    </i>                                    
                                 </div>
                                 </div>
                             </div>

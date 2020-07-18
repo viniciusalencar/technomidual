@@ -24,15 +24,15 @@ class Servicing extends Component {
                         <div className="row space">
                             <div className="col-md-4">
                                 <h1 className="title-servicing">Edições de Vídeos</h1>
-                                <img className="img-fluid rounded-circle" src={EdicaoVideo} alt="edicaoVideo"></img>
+                                <img className="img-fluid rounded-circle img-custom" src={EdicaoVideo} alt="edicaoVideo"></img>
                             </div>
                             <div className="col-md-4">
                                 <h1 className="title-servicing">Edições de Imagens</h1>
-                                <img className="img-fluid rounded-circle" src={EdicaoImagem} alt="edicaoVideo"></img>
+                                <img className="img-fluid rounded-circle img-custom" src={EdicaoImagem} alt="edicaoVideo"></img>
                             </div>
                             <div className="col-md-4">
                                 <h1 className="title-servicing">Edições de Áudios</h1>
-                                <img className="img-fluid rounded-circle" src={EdicaoAudio} alt="edicaoVideo"></img>
+                                <img className="img-fluid rounded-circle img-custom" src={EdicaoAudio} alt="edicaoVideo"></img>
                             </div>
                         </div>
                     </div>

@@ -31,7 +31,7 @@ class Footer extends Component{
                                 </i>
                                 <br></br>
                                 <i class="fa fa-envelope contacts-footer" aria-hidden="true">
-                                    <a className="nameIcon" href="#"><span className="contacts-name-footer">E-mail: Techno.com</span></a>
+                                    <a className="nameIcon" href="#"><span className="contacts-name-footer">Gmail: technomidual@gmail.com</span></a>
                                 </i>
                             </div>
                             <div className="col-md-3 third-column">

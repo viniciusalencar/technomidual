@@ -31,12 +31,12 @@ class About extends Component {
                             <div className="col-md-4 box-mission-vision-values">
                                 <h2 className="text-mission-vision-values">Missão</h2>
                                 <p className="misson">Ser a melhor empresa em oferecer edições de mídias audiovisuais com qualidade, segurança
-                                    e sempre dentro dos prazos estipulados aos seus cliente, satisfazendo suas necessidades.  
+                                    e sempre dentro dos prazos estipulados aos seus clientes, satisfazendo suas necessidades.  
                                 </p>
                             </div>
                             <div className="col-md-4 box-mission-vision-values">  
                                 <h2 className="text-mission-vision-values">Visão</h2>
-                                <p className="vision">Ser um negócio de referência dentro do âmbito tecnológico e de mídias, reconhecida como 
+                                <p className="vision">Ser um negócio de referência dentro do âmbito tecnológico e de mídias, reconhecido como 
                                     melhor opção à comunidade, pela qualidade do serviço prestado.
                                 </p>
                             </div>
@@ -47,7 +47,7 @@ class About extends Component {
                                 <p className="values">Criatividade</p>
                                 <p className="values">Segurança</p>
                                 <p className="values">Paixão</p>
-                                <p className="values">Preservação ao meio ambiente</p>
+                                <p className="values">Preservação do Meio Ambiente</p>
                                 <p className="values">Respeito e reconhecimento da diversidade</p>
                             </div>
                         </div>

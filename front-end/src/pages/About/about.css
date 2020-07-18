@@ -44,14 +44,19 @@ header.masthead-about {
 }
 
 .text-heading-company-profile {
-    font-size: 12px
+    font-size: 12px;
+    width: 100%;
 }
 
+.row-mission-vision-values {
+   
+}
 .mission-vision-values {
     width: 100%;
     padding-top: 35px;
     text-align: center;
-    padding-bottom: 50px
+    padding-bottom: 50px;
+    margin: 0 5px 0 5px;
 }
 
 .box-mission-vision-values {
@@ -60,10 +65,7 @@ header.masthead-about {
 
 .values {
     margin-bottom: 5px;
-    /* text-align: justify */
 }
 
-/* .vision {
-    text-align: justify;
-} */
+
 
