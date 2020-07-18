@@ -31,41 +31,47 @@ header.masthead-about {
     color: black; 
 }
 
+
 .text-company-profile {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     word-wrap: normal;  
     color: black; 
+    
 }
   
 .title-heading-company-profile {
     font-size: 36px;
+    width: 100%;
+
 }
 
 .text-heading-company-profile {
-    font-size: 12px;
+    font-size: 18px;
     width: 100%;
+    text-align: justify;
 }
 
-.row-mission-vision-values {
-   
-}
+
 .mission-vision-values {
     width: 100%;
-    padding-top: 35px;
     text-align: center;
-    padding-bottom: 50px;
-    margin: 0 5px 0 5px;
+    padding: 35px 5px 50px 5px
 }
 
 .box-mission-vision-values {
     border-right: solid 1px #acacac;
+    width: 100%;
+
 }
 
 .values {
     margin-bottom: 5px;
 }
 
+.row {
+    width: 100%;
+}
 
 

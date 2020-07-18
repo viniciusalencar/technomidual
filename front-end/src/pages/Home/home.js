@@ -49,7 +49,7 @@ class Home extends Component {
                     <Link to="/about" className="btn btn-custom btn-xl rounded-pill mt-5">Sobre</Link>
                   </div>
                 </div>
-                <div className="col-lg-6 ordern-lg-2">
+                <div className="col-lg-6 order-lg-2">
                   <div className="p-5">
                     <h2>O que fazemos?</h2>
                     <hr></hr>

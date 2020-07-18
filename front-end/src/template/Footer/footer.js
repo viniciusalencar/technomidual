@@ -34,7 +34,7 @@ class Footer extends Component{
                                     <a className="nameIcon" href="#"><span className="contacts-name-footer">Gmail: technomidual@gmail.com</span></a>
                                 </i>
                             </div>
-                            <div className="col-md-3 third-column">
+                            <div className="col-md-2 third-column">
                                 <Link to="/" className="link-footer">Página Inicial</Link>
                                 <br></br>
                                 <Link to="/about" className="link-footer">Quem somos?</Link>
