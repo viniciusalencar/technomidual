@@ -21,16 +21,16 @@ class Home extends Component {
                 </div>
                 <div className="socialMedias">
                 <i className="fa fa-instagram InstaColor" aria-hidden="true">
-                  <a className="nameIcon" href="#">Instagram: @technomidual</a>
+                  <a className="nameIcon" href="https://www.instagram.com/technomidual/">Instagram: @technomidual</a>
                 </i>
                 <i class="fa fa-whatsapp WhatsColor" aria-hidden="true">
-                  <a className="nameIcon" href="#">WhatsApp: (35) 99732-0332</a>
+                  <a className="nameIcon" href="https://api.whatsapp.com/send?phone=5535997320332&text=Ol%C3%A1%2C%20estou%20interessado%20no%20servi%C3%A7o%20da%20Techno.">WhatsApp: (35) 99732-0332</a>
                 </i>
                 <i class="fa fa-facebook" aria-hidden="true">
-                  <a className="nameIcon" href="#">Facebook: Techno</a>
+                  <a className="nameIcon" href="https://www.facebook.com/Techno-M%C3%ADdia-e-Audiovisual-111948333932196">Facebook: Techno</a>
                 </i>
                 <i class="fa fa-envelope" aria-hidden="true">
-                  <a className="nameIcon" href="#">Gmail: technomidual@gmail.com</a>
+                  <a className="nameIcon" >Gmail: technomidual@gmail.com</a>
                 </i>
                 
                 </div>

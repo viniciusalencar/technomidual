@@ -43,7 +43,7 @@ class Servicing extends Component {
                         <div className="row space">
                             <div className="col-md-12">
                                 <h1 className="titleDrive">Armazenamento</h1>
-                                <img className="image-drive" src={Drive} />
+                                <a href="https://www.google.com.br/drive/apps.html"><img className="image-drive" src={Drive} /></a>
                                 <br></br>
                                 <span>Seu trabalho seguro no Google Drive</span>
                             </div>
@@ -55,11 +55,11 @@ class Servicing extends Component {
                     <div className="tolls">
                         <div className="heading-tolls">
                             <h1>Ferramentas</h1>
-                                <img src="https://img.icons8.com/fluent/96/000000/adobe-after-effects.png" alt="AE"/>
-                                <img src="https://img.icons8.com/color/96/000000/adobe-illustrator.png"/>
-                                <img src="https://img.icons8.com/fluent/96/000000/adobe-audition.png"/>
-                                <img src="https://img.icons8.com/fluent/96/000000/adobe-premiere-pro.png"/>
-                                <img src="https://img.icons8.com/fluent/96/000000/adobe-photoshop.png"/>
+                                <a href="https://www.adobe.com/br/products/aftereffects.html"><img src="https://img.icons8.com/fluent/96/000000/adobe-after-effects.png" alt="AE"/></a>
+                                <a href="https://www.adobe.com/br/products/illustrator.html"><img src="https://img.icons8.com/color/96/000000/adobe-illustrator.png"/></a>
+                                <a href="https://www.adobe.com/br/products/audition.html"><img src="https://img.icons8.com/fluent/96/000000/adobe-audition.png"/></a>
+                                <a href="https://www.adobe.com/br/products/premiere.html"><img src="https://img.icons8.com/fluent/96/000000/adobe-premiere-pro.png"/></a>
+                                <a href="https://www.adobe.com/br/products/photoshop.html"><img src="https://img.icons8.com/fluent/96/000000/adobe-photoshop.png"/></a>
                             </div>
                         </div>
                 </section>

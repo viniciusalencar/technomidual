@@ -30,23 +30,23 @@ class Contacts extends Component {
                                     <h3 className="titleContacts">Contatos</h3>
                                 <div className="socialMediasContacts">
                                     <i class="fa fa-facebook" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Facebook: Techno</a>
+                                        <a className="nameIconContacts" href="https://www.facebook.com/Techno-M%C3%ADdia-e-Audiovisual-111948333932196">Facebook: Techno</a>
                                     </i>
                                     <hr></hr>
                                     <i class="fa fa-linkedin" aria-hidden="true">
-                                        <a className= "nameIconContacts" href="#">Linkedin: Techno</a>    
+                                        <a className= "nameIconContacts" href="https://www.linkedin.com/in/technomidual">Linkedin: Techno</a>    
                                     </i>    
                                     <hr></hr>
                                     <i className="fa fa-instagram InstaColor" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Instagram: @technomidual</a>
+                                        <a className="nameIconContacts" href="https://www.instagram.com/technomidual/">Instagram: @technomidual</a>
                                     </i>
                                     <hr></hr>
                                     <i class="fa fa-whatsapp WhatsColor" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">WhatsApp: (35) 99732-0332</a>
+                                        <a className="nameIconContacts" href="https://api.whatsapp.com/send?phone=5535997320332&text=Ol%C3%A1%2C%20estou%20interessado%20no%20servi%C3%A7o%20da%20Techno.">WhatsApp: (35) 99732-0332</a>
                                     </i>
                                     <hr></hr>                                
                                     <i class="fa fa-envelope" aria-hidden="true">
-                                        <a className="nameIconContacts" href="#">Gmail: technomidual@gmail.com</a>
+                                        <a className="nameIconContacts">Gmail: technomidual@gmail.com</a>
                                     </i>
                                 </div>
                                 </div>
